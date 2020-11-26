@@ -11,7 +11,8 @@ UserModel _$UserModelFromJson(Map<String, dynamic> json) {
     ..login = json['login'] as String
     ..id = json['id'] as int
     ..score = (json['score'] as num)?.toDouble()
-    ..avatar_url = json['avatar_url'] as String;
+    ..avatar_url = json['avatar_url'] as String
+    ..url = json['url'] as String;
 }
 
 Map<String, dynamic> _$UserModelToJson(UserModel instance) => <String, dynamic>{
@@ -19,4 +20,5 @@ Map<String, dynamic> _$UserModelToJson(UserModel instance) => <String, dynamic>{
       'id': instance.id,
       'score': instance.score,
       'avatar_url': instance.avatar_url,
+      'url': instance.url,
     };

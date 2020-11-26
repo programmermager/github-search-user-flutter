@@ -8,6 +8,7 @@ import 'package:test_sejutacita/model/object/user_model.dart';
 import 'package:test_sejutacita/screen/bloc/search_page_bloc.dart';
 import 'package:test_sejutacita/screen/bloc/search_page_event.dart';
 import 'package:test_sejutacita/util/screen_util.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'bloc/search_page_state.dart';
 
@@ -213,7 +214,7 @@ class _SearchPageState extends State<SearchPage> {
   itemUser(UserModel item){
     return InkWell(
       onTap: () {
-
+        _launchURL(item.url);
       },
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -280,6 +281,14 @@ class _SearchPageState extends State<SearchPage> {
 
   _reqSearch() {
     if(!isLoading) _bloc.add(ReqSearchUser(q: searchCtrl.text, page: currentPage));
+  }
+
+  _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 }
 

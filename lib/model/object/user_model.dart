@@ -8,6 +8,7 @@ class UserModel {
  int id;
  double score;
  String avatar_url;
+ String url;
 
   UserModel();
 
