@@ -1,6 +1,6 @@
 
 import 'package:equatable/equatable.dart';
-import 'package:test_sejutacita/model/response/search_user_response.dart';
+import 'package:github_user_search/model/response/search_user_response.dart';
 
 abstract class SearchPageState extends Equatable {
   const SearchPageState();

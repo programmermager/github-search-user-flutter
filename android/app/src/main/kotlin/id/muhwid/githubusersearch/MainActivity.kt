@@ -1,4 +1,4 @@
-package id.muhwid.test_sejutacita
+package id.muhwid.githubusersearch
 
 import io.flutter.embedding.android.FlutterActivity
 

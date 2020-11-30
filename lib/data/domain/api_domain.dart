@@ -1,7 +1,7 @@
 
 
-import 'package:test_sejutacita/data/repository/api_repository.dart';
-import 'package:test_sejutacita/model/response/search_user_response.dart';
+import 'package:github_user_search/data/repository/api_repository.dart';
+import 'package:github_user_search/model/response/search_user_response.dart';
 
 class ApiDomain {
   final ApiRepository repository;

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:test_sejutacita/data/domain/api_domain.dart';
-import 'package:test_sejutacita/data/repository/api_repository.dart';
-import 'package:test_sejutacita/model/object/user_model.dart';
-import 'package:test_sejutacita/screen/bloc/search_page_bloc.dart';
-import 'package:test_sejutacita/screen/bloc/search_page_event.dart';
-import 'package:test_sejutacita/util/screen_util.dart';
+import 'package:github_user_search/data/domain/api_domain.dart';
+import 'package:github_user_search/data/repository/api_repository.dart';
+import 'package:github_user_search/model/object/user_model.dart';
+import 'package:github_user_search/screen/bloc/search_page_bloc.dart';
+import 'package:github_user_search/screen/bloc/search_page_event.dart';
+import 'package:github_user_search/util/screen_util.dart';
 
 import 'bloc/search_page_state.dart';
 

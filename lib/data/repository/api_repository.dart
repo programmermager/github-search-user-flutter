@@ -1,6 +1,6 @@
 
 import 'package:dio/dio.dart';
-import 'package:test_sejutacita/model/response/search_user_response.dart';
+import 'package:github_user_search/model/response/search_user_response.dart';
 
 import '../api_services.dart';
 

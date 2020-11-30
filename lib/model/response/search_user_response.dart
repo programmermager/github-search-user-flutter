@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:test_sejutacita/model/object/user_model.dart';
+import 'package:github_user_search/model/object/user_model.dart';
 
 part 'search_user_response.g.dart';
 

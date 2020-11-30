@@ -1,5 +1,5 @@
-name: test_sejutacita
-description: SejutaCita Test App
+name: github_user_search
+description: Github's User Search
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

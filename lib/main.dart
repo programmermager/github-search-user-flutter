@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_sejutacita/screen/search_page.dart';
+import 'package:github_user_search/screen/search_page.dart';
 
 void main() {
   runApp(MyApp());

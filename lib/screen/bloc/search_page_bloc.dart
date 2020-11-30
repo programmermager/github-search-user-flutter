@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:test_sejutacita/data/domain/api_domain.dart';
-import 'package:test_sejutacita/model/response/search_user_response.dart';
-import 'package:test_sejutacita/screen/bloc/search_page_state.dart';
+import 'package:github_user_search/data/domain/api_domain.dart';
+import 'package:github_user_search/model/response/search_user_response.dart';
+import 'package:github_user_search/screen/bloc/search_page_state.dart';
 
 import 'search_page_event.dart';
 
